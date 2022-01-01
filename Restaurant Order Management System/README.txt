@@ -1,6 +1,4 @@
 Daniel Yang
-101194970
-Assignment 2
 
 Notes for running server:
 	1. Code will only work if the restaurants folder contains only .JSON files. Sometimes your OS may add random extra files for example
@@ -14,7 +12,7 @@ Notes for running server:
 	was not working because orderData[key][i] was not parsed correctly. I did not want to have to modify the rest of my code, so I just added the 
 	JSON.parse to this one line.
 
-	4. Can run with node server.js or npm start if you are in the A2 folder.
+	4. Can run with node server.js or npm start if you are in the A2 folder. Will require pug to run.
 
 Overall design:
 
