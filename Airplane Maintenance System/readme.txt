@@ -1,6 +1,5 @@
-Daniel Yang
-101194970
-A4
+Code can be compiled using "make a4" command.
+
 
 List of items:
 	Aircraft.cc
