@@ -1,5 +1,5 @@
-Daniel Yang
-101194970
+Code can be compiled using "make a3" and then run using ./a3
+
 
 Files included:
 
@@ -36,4 +36,3 @@ Files included:
 	WHLocation.cc
 	
 
-Assignment can be compiled using "make a3" and then run using ./a3
