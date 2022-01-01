@@ -1,4 +1,4 @@
-Code can be compiled using "make a4" command.
+Code can be compiled using "make a4" command and then can be run by executing the a4 executable.
 
 
 List of items:
@@ -19,4 +19,4 @@ List of items:
 	View.h
 	main.cc
 	
-The printing in option 1 does not work properly.
+Please note the printing in option 1 of the executable does not work properly.
