@@ -1,0 +1,30 @@
+- var dataset = JSON.parse(orderData)
+- var orderSummaries = JSON.parse(orderSummary)
+- var averageOrders = JSON.parse(averageOrder)
+- var popularItems = JSON.parse(popularItem)
+- var categories
+- var item
+- var averageValue
+- var currentRestaurant
+- var totalValue
+
+
+html
+    head
+        title Stats
+    body
+        div 
+            p 
+                a(href=`/home.html`) Home
+                br
+                a(href=`/orderform.html`) Order
+                br
+                a(href=`/stats.html`) Stats
+                br
+        div
+            for [key, value] of Object.entries(dataset)
+                li Stats for: !{key}
+                li Total number of orders: !{value.length}
+                li Average order total: !{averageOrders[key]}
+                li Most popular item: !{popularItems[key]}
+                    
