@@ -1,0 +1,15 @@
+{
+  "name": "a2",
+  "version": "1.0.0",
+  "description": "Daniel Yang\r 101194970\r Assignment 2",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}
